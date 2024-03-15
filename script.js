@@ -16,3 +16,4 @@ givingStyleBtn.addEventListener('click', function () {
     givingStyleBtn.style.backgroundColor = 'blue';
     givingStyleBtn.style.color = 'white';
 })
+
