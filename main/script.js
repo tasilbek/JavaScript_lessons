@@ -20,22 +20,21 @@
 // })
 
 
+// let box = document.querySelector('.box')
 
-let box = document.querySelector('.box')
-
-let triangleBtn = document.querySelector('.triangleBtn')
-triangleBtn.addEventListener('click', function () {
-    box.classList.add('triangle')
-    box.classList.remove("circle")
-})
+// let triangleBtn = document.querySelector('.triangleBtn')
+// triangleBtn.addEventListener('click', function () {
+//     box.classList.add('triangle')
+//     box.classList.remove("circle")
+// })
 
 // let triangleRemoveBtn = document.querySelector('.removeBtn')
 // triangleRemoveBtn.addEventListener('click', function () {
 //     circle.classList.remove('triangle')
 // })
 
-let circleBtn = document.querySelector('.circleBtn')
-circleBtn.addEventListener('click', function () {
-    box.classList.remove('triangle')
-    box.classList.add('circle')
-})
+// let circleBtn = document.querySelector('.circleBtn')
+// circleBtn.addEventListener('click', function () {
+//     box.classList.remove('triangle')
+//     box.classList.add('circle')
+// })
