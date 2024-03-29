@@ -30,3 +30,18 @@ const kvadrat = (son) => {
     return son*son
 }
 console.log(kvadrat(7));
+
+// function A(letter){
+//     if(letter.length==1){
+//         if(letter=="N"){
+//             console.log("Love");
+//         }
+//         else{
+//             console.log("None");
+//         }
+//     }
+//     else{
+//         console.log(undefined);
+//     }
+// }
+// A("N")
