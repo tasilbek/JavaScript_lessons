@@ -1,4 +1,4 @@
-// Array
+// Array 
 // 1
 let arr = ['javascript','go','python'];
 console.log(arr);
@@ -61,3 +61,76 @@ const EvenOrOdd3 = (a,b) => {
     }
 }
 EvenOrOdd3(9,100)
+
+function maxNumber(a,b){
+    if(a>b){
+        console.log(a);
+    }
+    else if(a<b){
+        console.log(b);
+    }
+    else{
+        console.log("Both of them are equal");
+    }
+}
+maxNumber(6,10)
+
+const maxNumber2 = function(a,b){
+    if(a>b){
+        console.log(a);
+    }
+    else if(a<b){
+        console.log(b);
+    }
+    else{
+        console.log("Both of them are equal");
+    }
+}
+maxNumber2(9,46)
+
+const maxNumber3 = (a,b) => {
+    if(a>b){
+        console.log(a);
+    }
+    else if(a<b){
+        console.log(b);
+    }
+    else{
+        console.log("Both of them are equal");
+    }
+}
+maxNumber3(735,735)
+
+// Split method
+let string = "Hello"
+console.log(string.split()); // converts string to array
+console.log(string.split('')); // gets each letter of the given value individually into an array
+console.log(string.split('').reverse());
+
+let a = 'Asilbek'
+let b = 'Muhammadamin'
+let c = 'Shaxriyor'
+let d = 'Javohir'
+let e = 'Shohjahon'
+console.log(a.split('').reverse());
+console.log(b.split('').reverse());
+console.log(c.split('').reverse());
+console.log(d.split('').reverse());
+console.log(e.split('').reverse());
+
+// Join method
+console.log(string.split('').reverse().join()); // Returns the given value from an array
+console.log(a.split('').reverse().join('')); // Returns the given value from an array with joining all the letters
+
+function reverseNumber(a){
+        let ConStr = String(a)
+        if(ConStr.length>= 2){
+            return ConStr.split("").reverse().join("")
+        }
+        else{
+            console.log("Enter a 2-digit number or more");
+        }
+        let result = Number(ConStr)
+        return result
+}
+console.log(reverseNumber(115));
