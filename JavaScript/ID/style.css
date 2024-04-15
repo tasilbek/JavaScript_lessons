@@ -1,0 +1,28 @@
+body{
+    margin: 20px;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+section{
+    margin: 400px 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin-right: 800px;
+}
+a{
+    text-decoration: none;
+}
