@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+}
+h2{
+    font-size: 34px;
+    margin-top: 50px;
+}
+p{
+    margin: 20px auto;
+    width: 460px;
+}
+button{
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    font-size: xx-large;
+    background-color: transparent;
+    margin-top: 30px;
+    padding: 6px 8px;
+    border: none;
+    cursor: pointer;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
