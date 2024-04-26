@@ -42,6 +42,7 @@ li{
     height: 200px;
     background-color: black;
     list-style: none;
+    transition: 0.5s;
 }
 li:hover{
     color: black;
